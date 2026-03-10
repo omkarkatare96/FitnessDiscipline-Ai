@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useToast, type Toast } from "../../context/ToastContext";
+import { useToast, type Toast } from "../../../context/ToastContext";
 import { X, CheckCircle, Info, AlertTriangle } from "lucide-react";
 
 const typeConfig: Record<Toast["type"], { border: string; glow: string; icon: React.ReactNode }> = {

@@ -207,7 +207,7 @@ function VideoCard({ v }: { v: Video }) {
             objectFit: "cover",
             transition: "transform 0.4s ease",
             transform: hovered ? "scale(1.05)" : "scale(1)",
-            filter: playing ? "brightness(0.4)" : "brightness(0.65)",
+            filter: hovered ? "brightness(0.4)" : "brightness(0.65)",
           }}
         />
         {/* Gradient overlay */}
